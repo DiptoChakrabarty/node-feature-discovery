@@ -32,6 +32,7 @@ const Name = "usb"
 
 const DeviceFeature = "device"
 
+// Config holds the config of the device
 type Config struct {
 	DeviceClassWhitelist []string `json:"deviceClassWhitelist,omitempty"`
 	DeviceLabelFields    []string `json:"deviceLabelFields,omitempty"`
